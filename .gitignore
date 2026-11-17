@@ -1,0 +1,28 @@
+# Archivos privados y configuración local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencias y compilación
+node_modules/
+dist/
+target/
+*.tsbuildinfo
+
+# Entorno de desarrollo
+.idea/
+.vscode/
+.claude/
+.codex/
+*.iml
+*.log
+.DS_Store
+Thumbs.db
+
+# Resultados generados
+screenshots/
+test-results/
+playwright-report/
+flight_booking_email_*.txt
